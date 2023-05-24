@@ -1,4 +1,5 @@
 # Cu-Zn-MT3
+To accurately determine the stoichiometry of metal-protein complexes to native mass spectrometry data, we prepared a python script that generates multiple theoretical protein/peptide isotopic distributions, and determines the molecule with the best R2 and chi-square.
 The fitting_script.py
 1.	GENERATE CANDIDATES
 The generate_molecules function is called with the specified h_range, zn_range, and cu_range parameters to generate a list of molecule candidates. 
